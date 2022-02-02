@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" total="1" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="18565" started-at="2022-02-02T11:23:20Z" finished-at="2022-02-02T11:23:38Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="18565" started-at="2022-02-02T11:23:20Z" finished-at="2022-02-02T11:23:38Z">
+      <class name="com.Runner.TestRunner">
+        <test-method status="FAIL" signature="setUP()[pri:0, instance:com.Runner.TestRunner@57baeedf]" name="setUP" is-config="true" duration-ms="0" started-at="2022-02-02T16:53:20Z" finished-at="2022-02-02T16:53:20Z">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[unknown error: Failed to create Chrome process.
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'ADMINRG-H53J47K', ip: '192.168.29.78', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00B487E3+2852835]
+	Ordinal0 [0x00A35BB1+1727409]
+	Ordinal0 [0x0090E4B9+517305]
+	Ordinal0 [0x0089D576+54646]
+	Ordinal0 [0x008BD9F7+186871]
+	Ordinal0 [0x008BD7FD+186365]
+	Ordinal0 [0x008BB70B+177931]
+	Ordinal0 [0x008A2584+75140]
+	Ordinal0 [0x008A3650+79440]
+	Ordinal0 [0x008A35E9+79337]
+	Ordinal0 [0x00A4AD5C+1813852]
+	GetHandleVerifier [0x00C6C616+1075574]
+	GetHandleVerifier [0x00C6C367+1074887]
+	GetHandleVerifier [0x00C77497+1120247]
+	GetHandleVerifier [0x00C6CC16+1077110]
+	Ordinal0 [0x00A43206+1782278]
+	Ordinal0 [0x00A4C3BB+1819579]
+	Ordinal0 [0x00A4C523+1819939]
+	Ordinal0 [0x00A62B45+1911621]
+	BaseThreadInitThunk [0x75D2FA29+25]
+	RtlGetAppContainerNamedObjectPath [0x77267A7E+286]
+	RtlGetAppContainerNamedObjectPath [0x77267A4E+238]
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: unknown error: Failed to create Chrome process.
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'ADMINRG-H53J47K', ip: '192.168.29.78', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00B487E3+2852835]
+	Ordinal0 [0x00A35BB1+1727409]
+	Ordinal0 [0x0090E4B9+517305]
+	Ordinal0 [0x0089D576+54646]
+	Ordinal0 [0x008BD9F7+186871]
+	Ordinal0 [0x008BD7FD+186365]
+	Ordinal0 [0x008BB70B+177931]
+	Ordinal0 [0x008A2584+75140]
+	Ordinal0 [0x008A3650+79440]
+	Ordinal0 [0x008A35E9+79337]
+	Ordinal0 [0x00A4AD5C+1813852]
+	GetHandleVerifier [0x00C6C616+1075574]
+	GetHandleVerifier [0x00C6C367+1074887]
+	GetHandleVerifier [0x00C77497+1120247]
+	GetHandleVerifier [0x00C6CC16+1077110]
+	Ordinal0 [0x00A43206+1782278]
+	Ordinal0 [0x00A4C3BB+1819579]
+	Ordinal0 [0x00A4C523+1819939]
+	Ordinal0 [0x00A62B45+1911621]
+	BaseThreadInitThunk [0x75D2FA29+25]
+	RtlGetAppContainerNamedObjectPath [0x77267A7E+286]
+	RtlGetAppContainerNamedObjectPath [0x77267A4E+238]
+
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)
+	at java.util.Spliterators$ArraySpliterator.tryAdvance(Unknown Source)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(Unknown Source)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(Unknown Source)
+	at java.util.stream.AbstractPipeline.copyInto(Unknown Source)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)
+	at java.util.stream.FindOps$FindOp.evaluateSequential(Unknown Source)
+	at java.util.stream.AbstractPipeline.evaluate(Unknown Source)
+	at java.util.stream.ReferencePipeline.findFirst(Unknown Source)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:168)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:123)
+	at com.Runner.TestRunner.setUP(TestRunner.java:47)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:175)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:107)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUP -->
+        <test-method status="FAIL" signature="login(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.Runner.TestRunner@57baeedf]" name="login" duration-ms="0" started-at="2022-02-02T16:53:38Z" description="login" data-provider="features" finished-at="2022-02-02T16:53:38Z">
+          <exception class="java.lang.RuntimeException">
+            <message>
+              <![CDATA[java.lang.NullPointerException]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException: java.lang.NullPointerException
+	at org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:143)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:426)
+	at org.testng.internal.Invoker.handleParameters(Invoker.java:1383)
+	at org.testng.internal.Invoker.createParameters(Invoker.java:1075)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1180)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: java.lang.NullPointerException
+	at com.Runner.TestRunner.getFeatures(TestRunner.java:60)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:117)
+	... 20 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="SKIP" signature="tearDown()[pri:0, instance:com.Runner.TestRunner@57baeedf]" name="tearDown" is-config="true" duration-ms="0" started-at="2022-02-02T16:53:38Z" finished-at="2022-02-02T16:53:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.Runner.TestRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

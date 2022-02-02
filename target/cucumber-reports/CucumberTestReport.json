@@ -1,0 +1,70 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "Authenication",
+        "description": "",
+        "id": "my-first-feature;authenication",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 9074783700,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "Open Application and Enter url",
+            "match": {
+              "location": "LoginPage.open_Application_and_Enter_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 202155700,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "enter username",
+            "match": {
+              "location": "LoginPage.enter_username()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4957387000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "enter password",
+            "match": {
+              "location": "LoginPage.enter_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 90250600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "verify Msg",
+            "match": {
+              "location": "LoginPage.verify_Msg()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "My First Feature",
+    "description": "",
+    "id": "my-first-feature",
+    "keyword": "Feature",
+    "uri": "Login.feature"
+  }
+]
